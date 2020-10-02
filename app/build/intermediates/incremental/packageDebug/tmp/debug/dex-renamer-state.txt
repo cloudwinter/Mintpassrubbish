@@ -1,0 +1,4 @@
+#Mon Jul 06 23:13:10 CST 2020
+base.0=/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.inprintech.mintpassrubbish"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:6:5-81
+11-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+12-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:7:5-9:47
+12-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:8:9-57
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:10:5-79
+13-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:10:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:11:5-81
+14-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:11:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:12:5-76
+15-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:12:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:13:5-79
+16-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:13:22-76
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+17-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:14:5-76
+17-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:14:22-73
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:15:5-67
+18-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:15:22-64
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:16:5-75
+19-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:16:22-72
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:17:5-65
+20-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:17:22-62
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:18:5-81
+21-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:18:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:19:5-80
+22-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:19:22-77
+23    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+23-->[com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:29:5-84
+23-->[com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:29:22-81
+24
+25    <application
+25-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:21:5-106:19
+26        android:name="com.inprintech.mintpassrubbish.MyApplication"
+26-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:22:9-38
+27        android:allowBackup="true"
+27-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:23:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/b02cf4183f10a6a3d845cc4034b07110/core-1.0.0/AndroidManifest.xml:22:18-86
+29        android:icon="@drawable/ic_launcher"
+29-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:24:9-45
+30        android:label="@string/app_name"
+30-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:25:9-41
+31        android:networkSecurityConfig="@xml/network_security_config"
+31-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:26:9-69
+32        android:roundIcon="@drawable/ic_launcher_round"
+32-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:27:9-56
+33        android:supportsRtl="true"
+33-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:28:9-35
+34        android:theme="@style/AppTheme" >
+34-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:29:9-40
+35        <activity
+35-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:30:9-50:20
+36            android:name="com.inprintech.mintpassrubbish.activity.MainActivity"
+36-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:31:13-50
+37            android:launchMode="singleTask"
+37-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:33:13-44
+38            android:windowSoftInputMode="stateAlwaysHidden" >
+38-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:32:13-60
+39            <intent-filter>
+39-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:34:13-38:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:35:17-69
+40-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:35:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:37:17-77
+42-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:37:27-74
+43            </intent-filter>
+44            <intent-filter>
+44-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:39:13-41:29
+45                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+45-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:40:17-90
+45-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:40:25-87
+46            </intent-filter>
+47            <intent-filter>
+47-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:42:13-45:29
+48                <action android:name="android.media.action.IMAGE_CAPTURE" />
+48-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:43:17-77
+48-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:43:25-74
+49
+50                <category android:name="android.intent.category.DEFAULT" />
+50-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:44:17-76
+50-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:44:27-73
+51            </intent-filter>
+52
+53            <meta-data
+53-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:47:13-49:57
+54                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+54-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:48:17-79
+55                android:resource="@xml/device_filter" />
+55-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:49:17-54
+56        </activity>
+57        <activity android:name="com.inprintech.mintpassrubbish.activity.ScoringInfoActivity" />
+57-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:51:9-66
+57-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:51:19-63
+58        <activity android:name="com.inprintech.mintpassrubbish.activity.DustbinTypeActivity" >
+58-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:52:9-64:20
+58-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:52:19-63
+59
+60            <!-- <intent-filter> -->
+61            <!-- <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" /> -->
+62            <!-- </intent-filter> -->
+63            <intent-filter>
+63-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:42:13-45:29
+64                <action android:name="android.media.action.IMAGE_CAPTURE" />
+64-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:43:17-77
+64-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:43:25-74
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:44:17-76
+66-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:44:27-73
+67            </intent-filter>
+68
+69            <!-- <meta-data -->
+70            <!-- android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" -->
+71            <!-- android:resource="@xml/device_filter" /> -->
+72        </activity>
+73        <activity android:name="com.inprintech.mintpassrubbish.activity.WeighInfoActivity" />
+73-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:65:9-64
+73-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:65:19-61
+74        <activity
+74-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:66:9-68:63
+75            android:name="com.inprintech.mintpassrubbish.activity.FaceInputActivity"
+75-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:67:13-55
+76            android:windowSoftInputMode="stateAlwaysHidden" />
+76-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:68:13-60
+77        <activity
+77-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:69:9-83:20
+78            android:name="com.inprintech.mintpassrubbish.activity.AdminActivity"
+78-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:70:13-51
+79            android:windowSoftInputMode="stateHidden|adjustUnspecified" >
+79-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:71:13-72
+80            <intent-filter>
+80-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:39:13-41:29
+81                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+81-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:40:17-90
+81-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:40:25-87
+82            </intent-filter>
+83            <intent-filter>
+83-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:42:13-45:29
+84                <action android:name="android.media.action.IMAGE_CAPTURE" />
+84-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:43:17-77
+84-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:43:25-74
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:44:17-76
+86-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:44:27-73
+87            </intent-filter>
+88
+89            <meta-data
+89-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:47:13-49:57
+90                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+90-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:48:17-79
+91                android:resource="@xml/device_filter" />
+91-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:49:17-54
+92        </activity>
+93
+94        <meta-data
+94-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:85:9-87:64
+95            android:name="com.amap.api.v2.apikey"
+95-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:86:13-50
+96            android:value="6d35c5ac33cd31656931c6babc05e6f0" />
+96-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:87:13-61
+97
+98        <provider
+98-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:89:9-97:20
+99            android:name="androidx.core.content.FileProvider"
+99-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:90:13-62
+100            android:authorities="com.example.admin.custmerviewapplication"
+100-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:91:13-75
+101            android:exported="false"
+101-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:92:13-37
+102            android:grantUriPermissions="true" >
+102-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:93:13-47
+103            <meta-data
+103-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:94:13-96:54
+104                android:name="android.support.FILE_PROVIDER_PATHS"
+104-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:95:17-67
+105                android:resource="@xml/file_paths" />
+105-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:96:17-51
+106        </provider>
+107
+108        <service android:name="com.amap.api.location.APSService" />
+108-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:98:9-68
+108-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:98:18-65
+109
+110        <receiver
+110-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:99:9-105:20
+111            android:name="com.inprintech.mintpassrubbish.receiver.SelfStartingReceiver"
+111-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:100:13-58
+112            android:exported="false" >
+112-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:101:13-37
+113            <intent-filter android:priority="100" >
+113-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:102:13-104:29
+113-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:102:28-50
+114                <action android:name="android.intent.action.BOOT_COMPLETED" />
+114-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:103:17-79
+114-->/Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:103:25-76
+115            </intent-filter>
+116        </receiver>
+117    </application>
+118
+119</manifest>

@@ -1,0 +1,338 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:2:1-107:12
+INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:2:1-107:12
+INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:2:1-107:12
+INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:2:1-107:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/4729035d644fc7c0e3344471cd84de2e/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/summer/.gradle/caches/transforms-2/files-2.1/52d131b7360016732f17f2e05b66acd2/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/8c7c883a3e8f3efb37a1214fe8c85cde/jetified-glide-4.8.0/AndroidManifest.xml:2:1-12:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/summer/.gradle/caches/transforms-2/files-2.1/c049adb780387c8e9d9133041deac4e7/rxandroid-2.0.2/AndroidManifest.xml:15:1-21:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/91ab003fd403d19468f2089b14940539/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [cn.bingoogolapple:bga-qrcodecore:1.1.7] /Users/summer/.gradle/caches/transforms-2/files-2.1/f2506a952908610798639e2e6facb67a/bga-qrcodecore-1.1.7/AndroidManifest.xml:2:1-10:12
+MERGED from [cn.bingoogolapple:bga-zxing:1.1.7] /Users/summer/.gradle/caches/transforms-2/files-2.1/20441068a42019d9253cb9d603532409/bga-zxing-1.1.7/AndroidManifest.xml:2:1-10:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.6.3] /Users/summer/.gradle/caches/transforms-2/files-2.1/de903e6d971b4cb662b7aaf4bfa3c40c/jetified-leakcanary-android-no-op-1.6.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9c77429199e45032c830b4763fefa7fc/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/1bb9a2ed23d9739045e5bbef66e306fa/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/d49742dadf9f82353e69f2ba7d2a78c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c11de498c4e41a8314c353e2b8f608d3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/2880dc024b8e24a228dfca4e1e33f347/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c945137752065d71f9af85c4c96b4e9b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/a49221b4a2a2bc3a727b1ceb9c07d15b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6cdc31e256bad13ea1e87339f9e2cc5f/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c804f4d57574aecd0674a36a01c27661/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/40fc13261933c18229cec2596312927f/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/795577fb9020cc9a1b93376093ca9f62/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/fda5cad2049de672482af191b09a998e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/33b12481b8ebb827903715afdcb66c2a/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/b02cf4183f10a6a3d845cc4034b07110/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c216083c51c3379995b7cb67d88918b3/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9460cfacbab274e2722989f999042562/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6af1715be6c9de350f3efa8e0d9aad07/jetified-gifdecoder-4.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9dc7a737a257e5b3a83e6a6343a06ebf/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/8a0343a7bf29327b536e3613cc86ed53/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6f86b4089effb1271890439f175d0d0b/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6508fb4ef69e527fd726ebe686cad74e/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9841b90f3906d1dce4d6fc8b973f5d95/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/d316e37d2bd22196b68e316878bbf2c3/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/01259eda2a6bd6b1485c9fae4747b307/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6e6f10ad3bb83cceab021280ae32714c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/3e2993861e81b73715c1cd311db83692/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:2:1-107:12
+INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:2:1-107:12
+INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:2:1-107:12
+	package
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:4:5-45
+		INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:2:1-107:12
+		INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:2:1-107:12
+		INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:7:5-9:47
+	tools:ignore
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:8:9-57
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:14:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:15:5-67
+MERGED from [com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:26:5-67
+MERGED from [com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:16:22-72
+uses-permission#android.permission.CAMERA
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:17:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:18:5-81
+MERGED from [com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:28:5-81
+MERGED from [com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:19:5-80
+MERGED from [com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:27:5-80
+MERGED from [com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:19:22-77
+application
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:21:5-106:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/summer/.gradle/caches/transforms-2/files-2.1/52d131b7360016732f17f2e05b66acd2/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/summer/.gradle/caches/transforms-2/files-2.1/52d131b7360016732f17f2e05b66acd2/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/8c7c883a3e8f3efb37a1214fe8c85cde/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/8c7c883a3e8f3efb37a1214fe8c85cde/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/b02cf4183f10a6a3d845cc4034b07110/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/b02cf4183f10a6a3d845cc4034b07110/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c216083c51c3379995b7cb67d88918b3/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c216083c51c3379995b7cb67d88918b3/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6af1715be6c9de350f3efa8e0d9aad07/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6af1715be6c9de350f3efa8e0d9aad07/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/b02cf4183f10a6a3d845cc4034b07110/core-1.0.0/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:25:9-41
+	android:roundIcon
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:27:9-56
+	android:icon
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:24:9-45
+	android:allowBackup
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:29:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:26:9-69
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:22:9-38
+activity#com.inprintech.mintpassrubbish.activity.MainActivity
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:30:9-50:20
+	android:launchMode
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:33:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:32:13-60
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:31:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:37:27-74
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:39:13-41:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:40:17-90
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:40:25-87
+intent-filter#action:name:android.media.action.IMAGE_CAPTURE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:42:13-45:29
+action#android.media.action.IMAGE_CAPTURE
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:43:25-74
+category#android.intent.category.DEFAULT
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:44:17-76
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:44:27-73
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:47:13-49:57
+	android:resource
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:49:17-54
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:48:17-79
+activity#com.inprintech.mintpassrubbish.activity.ScoringInfoActivity
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:51:9-66
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:51:19-63
+activity#com.inprintech.mintpassrubbish.activity.DustbinTypeActivity
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:52:9-64:20
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:52:19-63
+activity#com.inprintech.mintpassrubbish.activity.WeighInfoActivity
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:65:9-64
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:65:19-61
+activity#com.inprintech.mintpassrubbish.activity.FaceInputActivity
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:66:9-68:63
+	android:windowSoftInputMode
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:68:13-60
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:67:13-55
+activity#com.inprintech.mintpassrubbish.activity.AdminActivity
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:69:9-83:20
+	android:windowSoftInputMode
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:71:13-72
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:70:13-51
+meta-data#com.amap.api.v2.apikey
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:85:9-87:64
+	android:value
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:87:13-61
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:86:13-50
+provider#androidx.core.content.FileProvider
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:89:9-97:20
+	android:grantUriPermissions
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:93:13-47
+	android:authorities
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:91:13-75
+	android:exported
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:92:13-37
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:90:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:94:13-96:54
+	android:resource
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:96:17-51
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:95:17-67
+service#com.amap.api.location.APSService
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:98:9-68
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:98:18-65
+receiver#com.inprintech.mintpassrubbish.receiver.SelfStartingReceiver
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:99:9-105:20
+	android:exported
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:101:13-37
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:100:13-58
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:102:13-104:29
+	android:priority
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:102:28-50
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:103:17-79
+	android:name
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml:103:25-76
+uses-sdk
+INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/4729035d644fc7c0e3344471cd84de2e/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/4729035d644fc7c0e3344471cd84de2e/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/summer/.gradle/caches/transforms-2/files-2.1/52d131b7360016732f17f2e05b66acd2/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/summer/.gradle/caches/transforms-2/files-2.1/52d131b7360016732f17f2e05b66acd2/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:22:5-24:41
+MERGED from [com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/8c7c883a3e8f3efb37a1214fe8c85cde/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/8c7c883a3e8f3efb37a1214fe8c85cde/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/summer/.gradle/caches/transforms-2/files-2.1/c049adb780387c8e9d9133041deac4e7/rxandroid-2.0.2/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/summer/.gradle/caches/transforms-2/files-2.1/c049adb780387c8e9d9133041deac4e7/rxandroid-2.0.2/AndroidManifest.xml:19:5-43
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/91ab003fd403d19468f2089b14940539/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/91ab003fd403d19468f2089b14940539/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [cn.bingoogolapple:bga-qrcodecore:1.1.7] /Users/summer/.gradle/caches/transforms-2/files-2.1/f2506a952908610798639e2e6facb67a/bga-qrcodecore-1.1.7/AndroidManifest.xml:6:5-8:41
+MERGED from [cn.bingoogolapple:bga-qrcodecore:1.1.7] /Users/summer/.gradle/caches/transforms-2/files-2.1/f2506a952908610798639e2e6facb67a/bga-qrcodecore-1.1.7/AndroidManifest.xml:6:5-8:41
+MERGED from [cn.bingoogolapple:bga-zxing:1.1.7] /Users/summer/.gradle/caches/transforms-2/files-2.1/20441068a42019d9253cb9d603532409/bga-zxing-1.1.7/AndroidManifest.xml:6:5-8:41
+MERGED from [cn.bingoogolapple:bga-zxing:1.1.7] /Users/summer/.gradle/caches/transforms-2/files-2.1/20441068a42019d9253cb9d603532409/bga-zxing-1.1.7/AndroidManifest.xml:6:5-8:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.6.3] /Users/summer/.gradle/caches/transforms-2/files-2.1/de903e6d971b4cb662b7aaf4bfa3c40c/jetified-leakcanary-android-no-op-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.6.3] /Users/summer/.gradle/caches/transforms-2/files-2.1/de903e6d971b4cb662b7aaf4bfa3c40c/jetified-leakcanary-android-no-op-1.6.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9c77429199e45032c830b4763fefa7fc/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9c77429199e45032c830b4763fefa7fc/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/1bb9a2ed23d9739045e5bbef66e306fa/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/1bb9a2ed23d9739045e5bbef66e306fa/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/d49742dadf9f82353e69f2ba7d2a78c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/d49742dadf9f82353e69f2ba7d2a78c1/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c11de498c4e41a8314c353e2b8f608d3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c11de498c4e41a8314c353e2b8f608d3/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/2880dc024b8e24a228dfca4e1e33f347/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/2880dc024b8e24a228dfca4e1e33f347/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c945137752065d71f9af85c4c96b4e9b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c945137752065d71f9af85c4c96b4e9b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/a49221b4a2a2bc3a727b1ceb9c07d15b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/a49221b4a2a2bc3a727b1ceb9c07d15b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6cdc31e256bad13ea1e87339f9e2cc5f/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6cdc31e256bad13ea1e87339f9e2cc5f/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c804f4d57574aecd0674a36a01c27661/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c804f4d57574aecd0674a36a01c27661/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/40fc13261933c18229cec2596312927f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/40fc13261933c18229cec2596312927f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/795577fb9020cc9a1b93376093ca9f62/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/795577fb9020cc9a1b93376093ca9f62/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/fda5cad2049de672482af191b09a998e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/fda5cad2049de672482af191b09a998e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/33b12481b8ebb827903715afdcb66c2a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/33b12481b8ebb827903715afdcb66c2a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/b02cf4183f10a6a3d845cc4034b07110/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/b02cf4183f10a6a3d845cc4034b07110/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c216083c51c3379995b7cb67d88918b3/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/c216083c51c3379995b7cb67d88918b3/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9460cfacbab274e2722989f999042562/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9460cfacbab274e2722989f999042562/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6af1715be6c9de350f3efa8e0d9aad07/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6af1715be6c9de350f3efa8e0d9aad07/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9dc7a737a257e5b3a83e6a6343a06ebf/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9dc7a737a257e5b3a83e6a6343a06ebf/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/8a0343a7bf29327b536e3613cc86ed53/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/8a0343a7bf29327b536e3613cc86ed53/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6f86b4089effb1271890439f175d0d0b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6f86b4089effb1271890439f175d0d0b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6508fb4ef69e527fd726ebe686cad74e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6508fb4ef69e527fd726ebe686cad74e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9841b90f3906d1dce4d6fc8b973f5d95/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/9841b90f3906d1dce4d6fc8b973f5d95/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/d316e37d2bd22196b68e316878bbf2c3/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/d316e37d2bd22196b68e316878bbf2c3/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/01259eda2a6bd6b1485c9fae4747b307/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/01259eda2a6bd6b1485c9fae4747b307/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6e6f10ad3bb83cceab021280ae32714c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/6e6f10ad3bb83cceab021280ae32714c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/3e2993861e81b73715c1cd311db83692/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/summer/.gradle/caches/transforms-2/files-2.1/3e2993861e81b73715c1cd311db83692/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+		ADDED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/summer/Desktop/workspace/as/luoyin/Mintpassrubbish/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:29:5-84
+	android:name
+		ADDED from [com.lzy.net:okgo:3.0.4] /Users/summer/.gradle/caches/transforms-2/files-2.1/002516cb7e8eab83474bab63e49bf9db/okgo-3.0.4/AndroidManifest.xml:29:22-81

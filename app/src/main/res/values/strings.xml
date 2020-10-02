@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">智能垃圾桶</string>
+    <!-- Garbage Type -->
+    <string name="tips">提示：请选择对应垃圾箱子按钮</string>
+    <string name="types_of_garbage">——四种垃圾的说明——</string>
+    <!-- Garbage Weight -->
+    <string name="weighting_information">实时计重信息</string>
+    <string name="garbage_weight">所投垃圾重量</string>
+    <!-- Garbage Integra -->
+    <string name="integra_information">实时计分信息</string>
+    <string name="garbage_integra">所投垃圾获得积分</string>
+    <!-- UserInfo -->
+    <string name="resident_info">居民身份信息</string>
+    <string name="resident_name">居民姓名：</string>
+    <string name="resident_card">所属卡号：</string>
+    <string name="resident_phone">手机号：</string>
+    <string name="resident_integra">积分总数：</string>
+    <string name="fraction">分</string>
+
+    <string name="face_tips">按键可触发人脸识别登录</string>
+
+    <string name="date_time">yyyy-MM-dd HH:mm:ss</string>
+</resources>
