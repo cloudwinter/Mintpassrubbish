@@ -42,6 +42,7 @@ import com.arcsoft.face.FaceFeature;
 import com.arcsoft.face.GenderInfo;
 import com.arcsoft.face.LivenessInfo;
 import com.arcsoft.face.VersionInfo;
+import com.arcsoft.face.enums.DetectMode;
 import com.inprintech.mintpassrubbish.R;
 import com.inprintech.mintpassrubbish.activity.DustbinTypeActivity;
 import com.inprintech.mintpassrubbish.faceserver.CompareResult;
@@ -125,6 +126,8 @@ public class FaceInputActivity extends BaseActivity implements ViewTreeObserver.
     private static final int REGISTER_STATUS_DONE = 2;
 
     private int registerStatus = REGISTER_STATUS_DONE;
+    // FIXME 测试注册时使用
+//    private int registerStatus = REGISTER_STATUS_READY;
 
     private int afCode = -1;
     private ConcurrentHashMap<Integer, Integer> requestFeatureStatusMap = new ConcurrentHashMap<>();
@@ -151,6 +154,7 @@ public class FaceInputActivity extends BaseActivity implements ViewTreeObserver.
 
     private EditText etBind;
     private String idcard = null;
+// FIXME 测试注册时使用
 //    private String idcard = "0010738501";
     private int loginNum = 0;
 
@@ -294,7 +298,7 @@ public class FaceInputActivity extends BaseActivity implements ViewTreeObserver.
      */
     private void initEngine() {
         faceEngine = new FaceEngine();
-        afCode = faceEngine.init(this, FaceEngine.ASF_DETECT_MODE_VIDEO, ConfigUtil.getFtOrient(this),
+        afCode = faceEngine.init(this, DetectMode.ASF_DETECT_MODE_VIDEO, ConfigUtil.getFtOrient(this),
                 16, MAX_DETECT_NUM, FaceEngine.ASF_FACE_RECOGNITION | FaceEngine.ASF_FACE_DETECT | FaceEngine.ASF_LIVENESS);
         VersionInfo versionInfo = new VersionInfo();
         faceEngine.getVersion(versionInfo);

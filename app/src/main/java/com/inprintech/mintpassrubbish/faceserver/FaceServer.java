@@ -13,6 +13,8 @@ import com.arcsoft.face.FaceEngine;
 import com.arcsoft.face.FaceFeature;
 import com.arcsoft.face.FaceInfo;
 import com.arcsoft.face.FaceSimilar;
+import com.arcsoft.face.enums.DetectFaceOrientPriority;
+import com.arcsoft.face.enums.DetectMode;
 import com.inprintech.mintpassrubbish.RunningEnvironment;
 import com.inprintech.mintpassrubbish.model.FaceRegisterInfo;
 import com.inprintech.mintpassrubbish.utils.ImageUtil;
@@ -68,7 +70,7 @@ public class FaceServer {
         synchronized (this) {
             if (faceEngine == null && context != null) {
                 faceEngine = new FaceEngine();
-                int engineCode = faceEngine.init(context, FaceEngine.ASF_DETECT_MODE_IMAGE, FaceEngine.ASF_OP_0_HIGHER_EXT, 16, 1, FaceEngine.ASF_FACE_RECOGNITION | FaceEngine.ASF_FACE_DETECT);
+                int engineCode = faceEngine.init(context, DetectMode.ASF_DETECT_MODE_IMAGE, DetectFaceOrientPriority.ASF_OP_ALL_OUT, 16, 1, FaceEngine.ASF_FACE_RECOGNITION | FaceEngine.ASF_FACE_DETECT);
                 if (engineCode == ErrorInfo.MOK) {
                     initFaceList(context);
                     return true;

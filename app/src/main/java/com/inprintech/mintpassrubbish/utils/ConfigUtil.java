@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.arcsoft.face.FaceEngine;
+import com.arcsoft.face.enums.DetectFaceOrientPriority;
 
 public class ConfigUtil {
     private static final String APP_NAME = "ArcFaceDemo";
@@ -37,11 +38,23 @@ public class ConfigUtil {
                 .apply();
     }
 
-    public static int getFtOrient(Context context){
+    public static DetectFaceOrientPriority getFtOrient(Context context){
         if (context == null){
-            return FaceEngine.ASF_OP_270_ONLY;
+            return DetectFaceOrientPriority.ASF_OP_270_ONLY;
         }
         SharedPreferences sharedPreferences = context.getSharedPreferences(APP_NAME, Context.MODE_PRIVATE);
-        return sharedPreferences.getInt(FT_ORIENT, FaceEngine.ASF_OP_270_ONLY);
+        int priority =  sharedPreferences.getInt(FT_ORIENT, DetectFaceOrientPriority.ASF_OP_270_ONLY.getPriority());
+        if (priority == 1) {
+            return DetectFaceOrientPriority.ASF_OP_0_ONLY;
+        } else if (priority == 2) {
+            return DetectFaceOrientPriority.ASF_OP_90_ONLY;
+        } else if (priority == 3) {
+            return DetectFaceOrientPriority.ASF_OP_270_ONLY;
+        } else if (priority == 4) {
+            return DetectFaceOrientPriority.ASF_OP_180_ONLY;
+        } else if (priority == 5) {
+            return DetectFaceOrientPriority.ASF_OP_ALL_OUT;
+        }
+        return DetectFaceOrientPriority.ASF_OP_270_ONLY;
     }
 }

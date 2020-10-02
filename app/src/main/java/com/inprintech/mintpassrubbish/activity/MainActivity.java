@@ -43,6 +43,7 @@ import com.amap.api.location.AMapLocationClientOption;
 import com.amap.api.location.AMapLocationListener;
 import com.arcsoft.face.ErrorInfo;
 import com.arcsoft.face.FaceEngine;
+import com.arcsoft.face.enums.DetectFaceOrientPriority;
 import com.inprintech.mintpassrubbish.MyApplication;
 import com.inprintech.mintpassrubbish.R;
 import com.inprintech.mintpassrubbish.RunningEnvironment;
@@ -173,7 +174,7 @@ public class MainActivity extends BaseActivity {
      */
     private void initView() {
 
-        ConfigUtil.setFtOrient(MainActivity.this, FaceEngine.ASF_OP_0_HIGHER_EXT);
+        ConfigUtil.setFtOrient(MainActivity.this, DetectFaceOrientPriority.ASF_OP_ALL_OUT.getPriority());
 
         tvNoCode = findViewById(R.id.tv_no_qr_code);
         imgQRCode = findViewById(R.id.img_qr_code_login);
