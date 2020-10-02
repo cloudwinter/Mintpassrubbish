@@ -32,4 +32,7 @@ Thumbs.db
 build/
 
 #gradle.properties
-
+.idea/caches
+.idea/codeStyles
+.idea/libraries
+.idea/gradle.xml
