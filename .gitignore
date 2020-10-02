@@ -36,3 +36,4 @@ build/
 .idea/codeStyles
 .idea/libraries
 .idea/gradle.xml
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
