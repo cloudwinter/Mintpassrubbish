@@ -53,6 +53,7 @@ import com.inprintech.mintpassrubbish.utils.Constants;
 import com.inprintech.mintpassrubbish.utils.Urls;
 import com.inprintech.mintpassrubbish.utils.Utils;
 import com.inprintech.mintpassrubbish.utils.ZxingUtils;
+import com.inprintech.mintpassrubbish.widget.BarcodeInputWatcher;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.cache.CacheMode;
 import com.lzy.okgo.callback.StringCallback;
@@ -111,6 +112,7 @@ public class MainActivity extends BaseActivity {
     private static final int EDIT_OK = 1;
     private static final int TIME_DATE = 2;
     private static final int QR_RETURN_LOGIN = 3;
+    private static final int RE_NETWORK = 4;
 
     String city = null;
     String path = null;
@@ -131,13 +133,16 @@ public class MainActivity extends BaseActivity {
 
     private MainHandler etHandler;
 
+    private boolean isNetworkAvailable;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        etHandler = new MainHandler(this);
+        isNetworkAvailable = RunningEnvironment.isNetworkAvailable(this);
 
+        etHandler = new MainHandler(this);
 
         requestReadExternalPermission();
         Log.i(TAG, "onCreate: ---MainActivity---");
@@ -204,7 +209,6 @@ public class MainActivity extends BaseActivity {
 
         playVideo();//播放视频
         getTime();//获取时间
-        postqrcode(Urls.address);//获取二维码
 
         if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED) {//未开启定位权限
@@ -214,12 +218,25 @@ public class MainActivity extends BaseActivity {
             startLocaion();
             Log.i(TAG, "initView:   已开启定位权限");
         }
+
+        postqrcode(Urls.address);//获取二维码
+
         Typeface typeface = ResourcesCompat.getFont(this, R.font.fangzheng_han_style);
         tvFacetips.setTypeface(typeface);
 
         etIdcard.setFilters(new InputFilter[]{new InputFilter.LengthFilter(10)});
         showSoftInputFromWindow(MainActivity.this, etIdcard);
-        etIdcard.addTextChangedListener(textWatcher);
+//        etIdcard.addTextChangedListener(textWatcher);
+
+        BarcodeInputWatcher barcodeInputWatcher = new BarcodeInputWatcher(etIdcard);
+        barcodeInputWatcher.setOnBarcodeInputListener(new BarcodeInputWatcher.OnBarcodeInputListener() {
+            @Override
+            public void onBarcodeInput(String barcode) {
+                // 处理输入的条码，用 TextView 显示出来
+                etHandler.postDelayed(mRunnable, 100);
+            }
+        });
+
 
         openUsbDevice();
 
@@ -469,6 +486,10 @@ public class MainActivity extends BaseActivity {
                 return;
             }
             switch (msg.what) {
+                case RE_NETWORK:
+                    mainActivity.startLocaion();
+                    mainActivity.postqrcode(Urls.address);//获取二维码
+                    break;
                 case EDIT_OK:
                     removeMessages(EDIT_OK);
                     Log.d(TAG, "handleMessage() returned:输入完成 ");
@@ -557,11 +578,11 @@ public class MainActivity extends BaseActivity {
         editText.requestFocus();
 
         // TODO 待测试
-//        // 关闭软键盘
-//        InputMethodManager manager = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
-//        manager.hideSoftInputFromWindow(
-//                editText == null ? null : editText.getWindowToken(),
-//                InputMethodManager.HIDE_NOT_ALWAYS);
+        // 关闭软键盘
+        InputMethodManager manager = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        manager.hideSoftInputFromWindow(
+                editText == null ? null : editText.getWindowToken(),
+                InputMethodManager.HIDE_NOT_ALWAYS);
     }
 
     View.OnClickListener imgListener = new View.OnClickListener() {
@@ -786,6 +807,14 @@ public class MainActivity extends BaseActivity {
                     Thread.sleep(1000);
                     etHandler.sendEmptyMessage(TIME_DATE);
                     etHandler.sendEmptyMessage(QR_RETURN_LOGIN);
+
+                    if (!isNetworkAvailable) {
+                        isNetworkAvailable = RunningEnvironment.isNetworkAvailable(getApplicationContext());
+                        if (isNetworkAvailable) {
+                            etHandler.sendEmptyMessage(RE_NETWORK);
+                        }
+                    }
+
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -840,6 +869,7 @@ public class MainActivity extends BaseActivity {
                             startActivity(intent);
                             finish();
                         } catch (JSONException e) {
+                            Toast.makeText(MainActivity.this, "刷卡登录失败！", Toast.LENGTH_SHORT).show();
                             // TODO
                             e.printStackTrace();
                         }

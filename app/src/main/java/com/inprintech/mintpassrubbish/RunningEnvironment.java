@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.Application;
 import android.content.Context;
 import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.telephony.TelephonyManager;
@@ -72,6 +73,39 @@ public class RunningEnvironment {
     }
 
 
+    /**
+     * 检测网络是否畅通
+     *
+     * @return true:畅通，false:不畅通
+     */
+    public static boolean checkNetWork() {
+        boolean isConnect = isNetworkAvailable(sAppContext);
+//        if (isConnect) {
+//            //initDeviceInfo();
+//        }
+        return isConnect;
+    }
+
+
+    public static boolean isNetworkAvailable(Context context) {
+        try {
+            ConnectivityManager connectivity = (ConnectivityManager) context
+                    .getSystemService(Context.CONNECTIVITY_SERVICE);
+            if (connectivity != null) {
+                NetworkInfo info = connectivity.getActiveNetworkInfo();
+                if (info != null && info.isConnected()) {
+                    if (info.getState() == NetworkInfo.State.CONNECTED) {
+                        return true;
+                    }
+                }
+            }
+        } catch (Exception e) {
+        }
+
+        return false;
+    }
+
+
 //    /**
 //     * 初始化设备信息
 //     *
@@ -118,4 +152,7 @@ public class RunningEnvironment {
 //            }
 //        }
 //    }
+
+
+
 }
