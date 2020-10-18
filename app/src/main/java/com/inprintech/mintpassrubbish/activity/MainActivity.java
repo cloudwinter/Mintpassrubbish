@@ -226,16 +226,16 @@ public class MainActivity extends BaseActivity {
 
         etIdcard.setFilters(new InputFilter[]{new InputFilter.LengthFilter(10)});
         showSoftInputFromWindow(MainActivity.this, etIdcard);
-//        etIdcard.addTextChangedListener(textWatcher);
+        etIdcard.addTextChangedListener(textWatcher);
 
-        BarcodeInputWatcher barcodeInputWatcher = new BarcodeInputWatcher(etIdcard);
-        barcodeInputWatcher.setOnBarcodeInputListener(new BarcodeInputWatcher.OnBarcodeInputListener() {
-            @Override
-            public void onBarcodeInput(String barcode) {
-                // 处理输入的条码，用 TextView 显示出来
-                etHandler.postDelayed(mRunnable, 100);
-            }
-        });
+//        BarcodeInputWatcher barcodeInputWatcher = new BarcodeInputWatcher(etIdcard);
+//        barcodeInputWatcher.setOnBarcodeInputListener(new BarcodeInputWatcher.OnBarcodeInputListener() {
+//            @Override
+//            public void onBarcodeInput(String barcode) {
+//                // 处理输入的条码，用 TextView 显示出来
+//                etHandler.postDelayed(mRunnable, 100);
+//            }
+//        });
 
 
         openUsbDevice();
@@ -562,9 +562,14 @@ public class MainActivity extends BaseActivity {
     private Runnable mRunnable = new Runnable() {
         @Override
         public void run() {
+            String idcard = etIdcard.getText().toString();
+            if (TextUtils.isEmpty(idcard)) {
+                return;
+            }
             etHandler.sendEmptyMessage(EDIT_OK);
-            String idcard = etIdcard.getText().toString().trim();
-            postgetlogin(Urls.address, idcard);
+            postgetlogin(Urls.address, idcard.trim());
+            // 清空
+            etIdcard.setText("");
             Log.i(TAG, "sendEmptyMessage: -----idcard---" + idcard);
         }
     };
